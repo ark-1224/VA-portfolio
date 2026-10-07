@@ -147,7 +147,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 
 /* Giant name sits at face level, behind the cutout */
 .hero__word {
-  position: absolute; z-index: 1; left: 50%; top: 30%;
+  position: absolute; z-index: 1; left: 50%; top: 25%;
   transform: translate(-50%, -50%);
   display: flex; gap: 62cqw; /* the gap sits behind her head so both words stay readable */
   font: 500 calc(min(100vw - var(--gutter) * 2, 1400px) / 9.9)/.85 var(--serif);
@@ -159,7 +159,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 /* Transparent cutout: no frame, dissolves into the dark at the bottom */
 .hero__photo {
   position: relative; z-index: 2;
-  aspect-ratio: 4 / 5; width: 100%;
+  aspect-ratio: 1182 / 1330; width: 100%;
   -webkit-mask-image: linear-gradient(to bottom, #000 68%, transparent 100%);
           mask-image: linear-gradient(to bottom, #000 68%, transparent 100%);
 }
